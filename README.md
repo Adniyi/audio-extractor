@@ -81,7 +81,7 @@ py audio_extractor.py -o "C:\Audio\vacation.mp3" -i "C:\Videos\vacation.mp4"
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10+
 - moviepy
 
 Install all requirements:
