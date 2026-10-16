@@ -4,7 +4,7 @@ A simple Python script to extract audio from video files using [MoviePy](https:/
 
 ## Features
 
-- Extract audio from video files and save as MP3
+- Extract audio from video files and save as MP3 or WAV
 - Supports both positional arguments and flags for input/output paths
 - Lightweight CLI tool with minimal dependencies
 

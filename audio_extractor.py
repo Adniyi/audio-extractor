@@ -14,7 +14,8 @@ def extract_audio(video_file_path: str, audio_file_path: str):
 
     # Extract Audio from video file
     try:
-        video.audio.write_audiofile(audio_file_path, codec="mp3") 
+        codec = "pcm_s16le" if audio_file_path.lower().endswith(".wav") else "mp3"
+        video.audio.write_audiofile(audio_file_path, codec=codec)
         print(f"Audio file succesfully extracted to: {audio_file_path}")
         
         # Close up resources
